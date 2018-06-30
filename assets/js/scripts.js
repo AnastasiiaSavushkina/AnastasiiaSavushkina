@@ -312,7 +312,7 @@
             var values = "name=" + name + "&email=" + email + " &msg=" + msg;
             $.ajax({
                 type: "POST",
-                url: "mail.php",
+                url: "savushkina.anastasia@gmail.com",
                 data: values,
                 success: function() {
                     $('#name').val('');
