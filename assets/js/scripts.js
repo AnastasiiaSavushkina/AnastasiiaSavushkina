@@ -68,10 +68,10 @@
         if (!isMobile) {
             setTimeout(function() {
                 preloader.addClass('preloaded');
-            }, 800);
+            }, 50);
             setTimeout(function() {
                 preloader.remove();
-            }, 2000);
+            }, 50);
 
         } else {
             preloader.remove();
