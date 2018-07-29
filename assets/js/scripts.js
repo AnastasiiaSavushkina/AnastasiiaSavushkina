@@ -311,8 +311,8 @@
         if (name != '' && email != '' && msg != '') {
             var values = "name=" + name + "&email=" + email + " &msg=" + msg;
             $.ajax({
-                type: "GET",
-                url: "savushkina.anastasia@gmail.com",
+                type: "POST",
+                url: "mail.php",
                 data: values,
                 success: function() {
                     $('#name').val('');
